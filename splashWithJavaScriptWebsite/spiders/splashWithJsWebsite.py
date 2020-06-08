@@ -22,7 +22,8 @@ class SplashwithjswebsiteSpider(scrapy.Spider):
         for quote in quotes:
             # one by one extract data from each of quote.
             yield {'author': quote.xpath('.//*[@class="author"]/text()').extract_first(),
-                   'quote': quote.xpath('.//*[@class="text"]/text()').extract_first()}
+                   'comment': quote.xpath('.//*[@class="text"]/text()').extract_first(),
+                   'tags': quote.xpath('.//*[@class="keywords"]/@content').extract()}
 
         # script for javascript enable mouse click action for next  page
         script_mouseClick_action = """function main(splash)
