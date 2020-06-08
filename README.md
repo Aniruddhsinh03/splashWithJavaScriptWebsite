@@ -71,6 +71,34 @@ Check Splash `install docs`_ for more info.
    If you use other cache storage then it is necesary to subclass it and
    replace all ``scrapy.util.request.request_fingerprint`` calls with
    ``scrapy_splash.splash_request_fingerprint``.
+## Selection
+
+Quotes Website
+
+
+![Image of Quotes](https://github.com/Aniruddhsinh03/splashWithJavaScriptWebsite/blob/master/screenshots/quotes_splash_1.jpg)
+
+Next Page Button Click
+
+
+![Image of NextButton](https://github.com/Aniruddhsinh03/splashWithJavaScriptWebsite/blob/master/screenshots/quotes_splash_2.jpg)
+
+Comment Selection
+
+
+![Image of Comment](https://github.com/Aniruddhsinh03/splashWithJavaScriptWebsite/blob/master/screenshots/quotes_splash_3.jpg)
+
+Author Selection
+
+
+![Image of Author](https://github.com/Aniruddhsinh03/splashWithJavaScriptWebsite/blob/master/screenshots/quotes_splash_4.jpg)
+
+Tags Website
+
+
+![Image of Tags](https://github.com/Aniruddhsinh03/splashWithJavaScriptWebsite/blob/master/screenshots/quotes_splash_5.jpg)
+
+
 ## Extracted data
 
 This project extracts quotes, combined with the respective author names and tags.
